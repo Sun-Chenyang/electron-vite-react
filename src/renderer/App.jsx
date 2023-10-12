@@ -6,6 +6,7 @@ import "antd/dist/antd.css";
 import "./App.less";
 
 function App() {
+  console.log('import.meta: ', import.meta);
   const [list, setList] = useState([]);
   const [keyword, setKeyword] = useState();
 

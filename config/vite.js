@@ -1,6 +1,7 @@
 const { defineConfig } = require("vite");
 const Path = require("path");
 const reactPlugin = require("@vitejs/plugin-react");
+const { inspectorServer } = require("@react-dev-inspector/vite-plugin");
 const { quasar, transformAssetUrls } = require("@quasar/vite-plugin");
 
 /**
@@ -21,15 +22,7 @@ const config = defineConfig({
     reactPlugin({
       template: { transformAssetUrls },
     }),
-    // quasar({
-    //   sassVariables: Path.join(
-    //     __dirname,
-    //     "..",
-    //     "src",
-    //     "renderer",
-    //     "quasar-variables.sass",
-    //   ),
-    // }),
+    inspectorServer(),
   ],
   css: {
     preprocessorOptions: {
