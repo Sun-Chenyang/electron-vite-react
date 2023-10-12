@@ -8,8 +8,8 @@
 
 然后通过 yarn 下载依赖
 
-```javascript
-  $ yarn
+```
+$ yarn
 ```
 
 ### 开发
@@ -33,3 +33,9 @@ npm config set electron_mirror https://npm.taobao.org/mirrors/electron/
 npm install --save-dev electron-rebuild
 brew install pkg-config cairo pango libpng jpeg giflib librsvg
 ```
+
+
+### 全能地图下载器
+
+- 链接：https://pan.baidu.com/s/1CDZHTABqEvZElJy0NG3SOw
+- 提取码：iyfd
