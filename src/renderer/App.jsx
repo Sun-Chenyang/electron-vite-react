@@ -3,6 +3,7 @@ import styles from "./App.module.less";
 import { useState } from "react";
 import SqlDemo from "./SqlDemo";
 import MapDemo from "./MapDemo";
+import Car from "./Car";
 
 function App() {
   const tabList = [
@@ -14,6 +15,10 @@ function App() {
       key: "tab2",
       tab: "离线地图Demo",
     },
+    {
+      key: "tab3",
+      tab: "threeDemo",
+    },
   ];
 
   const [tabKey, setTabKey] = useState("tab1");
@@ -21,6 +26,7 @@ function App() {
   const contentListNoTitle = {
     tab1: <SqlDemo />,
     tab2: <MapDemo />,
+    tab3: <Car />,
   };
 
   return (
@@ -32,6 +38,7 @@ function App() {
         onTabChange={setTabKey}
         bodyStyle={{
           height: "calc(100% - 55px)",
+          position: "relative",
         }}
       >
         {contentListNoTitle[tabKey]}

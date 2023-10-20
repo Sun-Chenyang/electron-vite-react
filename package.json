@@ -52,6 +52,7 @@
     "react-dom": "^18.2.0",
     "react-leaflet": "^4.2.1",
     "sequelize": "^6.25.5",
-    "sqlite3": "^5.1.2"
+    "sqlite3": "^5.1.2",
+    "three": "^0.136.0"
   }
 }

@@ -1,6 +1,6 @@
 ## electron-vite-react
 
-使用vite 构建的包含electron sqlite 的react项目模板
+使用vite 构建的包含`electron` `sqlite` `离线地图` `three` 的react项目模板
 
 ## 环境搭建
 
@@ -33,7 +33,6 @@ npm config set electron_mirror https://npm.taobao.org/mirrors/electron/
 npm install --save-dev electron-rebuild
 brew install pkg-config cairo pango libpng jpeg giflib librsvg
 ```
-
 
 ### 全能地图下载器
 
